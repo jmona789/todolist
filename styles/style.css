@@ -1,0 +1,29 @@
+body{
+  background-color: lightgrey
+}
+
+.#table{
+  border-color: black;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  font-size:15px;
+}
+
+.btn-danger{
+  opacity: 0.3;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.btn-danger:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.btn-primary{
+  margin-left: 15px;
+}
