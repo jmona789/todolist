@@ -1,5 +1,5 @@
 body{
-  background-color: lightgrey
+  background-color: lightgrey;
 }
 
 .#table{
@@ -26,4 +26,8 @@ li{
 
 .btn-primary{
   margin-left: 15px;
+}
+
+.str{
+  text-decoration: line-through;
 }
