@@ -21,6 +21,7 @@ function addItem(){
   deleteButtons[i].addEventListener("click", function(e) {
     var raw = document.getElementById(e.target.getAttribute("rawLink"));
     raw.parentNode.removeChild(raw);
+    newItemNum--;
     });
   }
   document.getElementById("newItemForm").reset();
