@@ -25,7 +25,3 @@ function addItem(){
   }
   document.getElementById("newItemForm").reset();
 }
-
-function deleteItem(){
-  return;
-}
